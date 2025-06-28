@@ -22,7 +22,7 @@ public extension AlertTransition {
     /// Alert background Type，UIColor or UIBlurEffect. If you want a color with alpha component, use withAlphaComponent in UIColor, eg: UIColor.blue.withAlphaComponent(0.5)
     enum BackgroundType {
         case color(UIColor)
-        case blurEffect(style: UIBlurEffectStyle, alpha: CGFloat)
+        case blurEffect(style: UIBlurEffect.Style, alpha: CGFloat)
     }
 }
 

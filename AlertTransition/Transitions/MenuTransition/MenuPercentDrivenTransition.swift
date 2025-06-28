@@ -86,7 +86,7 @@ class MenuPercentDrivenTransition: PercentDrivenInteractiveTransition {
 
 extension MenuPercentDrivenTransition: UIGestureRecognizerDelegate {
     func gestureRecognizerShouldBegin(_ gestureRecognizer: UIGestureRecognizer) -> Bool {
-        guard let count = (transition?.fromController as? UINavigationController)?.childViewControllers.count, count == 1 else {
+        guard let count = (transition?.fromController as? UINavigationController)?.childrenchildren.count, count == 1 else {
             return false
         }
         guard let view = transition?.fromController?.view else {

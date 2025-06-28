@@ -40,7 +40,7 @@ public extension EasyTransition {
         public var duration: TimeInterval = 0.25
         public var damping: CGFloat = 0.7
         public var velocity: CGFloat = 0
-        public var options: UIViewAnimationOptions = .curveEaseInOut
+        public var options: UIView.AnimationOptions = .curveEaseInOut
     }
 }
 
