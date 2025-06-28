@@ -12,7 +12,7 @@ let package = Package(
     targets: [
         .target(
             name: "AlertTransition",
-            path: "Source"
+            path: "AlertTransition"
         )
     ]
 )

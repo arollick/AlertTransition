@@ -31,6 +31,7 @@
 		79962C191EA7906D0046B631 /* StarWarsGLAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79962C141EA7906D0046B631 /* StarWarsGLAnimator.swift */; };
 		79962C1A1EA7906D0046B631 /* Vector2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79962C151EA7906D0046B631 /* Vector2.swift */; };
 		79962C1B1EA7906D0046B631 /* ViewTexture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79962C161EA7906D0046B631 /* ViewTexture.swift */; };
+		EF9A76DB2E0FFE9400D25B97 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9A76DA2E0FFE9400D25B97 /* Package.swift */; };
 		FF864D92FE4ED8E188B7118C /* Pods_AlertTransitionDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D5E80FCCA63971878F53EB /* Pods_AlertTransitionDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,7 @@
 		79962C161EA7906D0046B631 /* ViewTexture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewTexture.swift; path = StarWarsGLAnimator/ViewTexture.swift; sourceTree = "<group>"; };
 		87B043D8E060CF5513EAA5F2 /* Pods_AlertTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlertTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C892AFC9C414AC1076F0A085 /* Pods-AlertTransitionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlertTransitionDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlertTransitionDemo/Pods-AlertTransitionDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		EF9A76DA2E0FFE9400D25B97 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 		793E89F81EA4CFE200BA3325 = {
 			isa = PBXGroup;
 			children = (
+				EF9A76DA2E0FFE9400D25B97 /* Package.swift */,
 				793E8A121EA4D11200BA3325 /* AlertTransitionDemo */,
 				793E8A031EA4CFE200BA3325 /* Products */,
 				2539B46ED676C34DD8F7E1AB /* Pods */,
@@ -216,6 +219,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -323,6 +327,7 @@
 				79962C171EA7906D0046B631 /* Sprite.swift in Sources */,
 				79962C191EA7906D0046B631 /* StarWarsGLAnimator.swift in Sources */,
 				79962C1A1EA7906D0046B631 /* Vector2.swift in Sources */,
+				EF9A76DB2E0FFE9400D25B97 /* Package.swift in Sources */,
 				790FE8101EA64AFA0040D499 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
